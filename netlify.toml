@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://mern-blog-backend-nc2o.onrender.com/:splat"
+  status = 200
+  force = true
