@@ -1,0 +1,1 @@
+"proxy": "https://mern-blog-backend-nc2o.onrender.com/",
