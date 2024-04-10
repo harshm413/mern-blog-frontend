@@ -76,7 +76,7 @@ const CommentItem = ({ comment, activeUser }) => {
             <div className="comment-top-block">
                 <section>
                     <img
-                        src={`/userPhotos/${comment.author.photo}`}
+                        src={`https://mern-blog-backend-nc2o.onrender.com/userPhotos/${comment.author.photo}`}
                         alt={comment.author.username}
                         width="35"
                     />

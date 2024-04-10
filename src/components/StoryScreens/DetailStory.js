@@ -175,7 +175,7 @@ const DetailStory = () => {
                                     {story.author && (
                                         <li className="story-author-info">
                                             <img
-                                                src={`/userPhotos/${story.author.photo}`}
+                                                src={`https://mern-blog-backend-nc2o.onrender.com/userPhotos/${story.author.photo}`}
                                                 alt={story.author.username}
                                             />
                                             <span className="story-author-username">
@@ -244,7 +244,7 @@ const DetailStory = () => {
                         <div className="story-content">
                             <div className="story-banner-img">
                                 <img
-                                    src={`/storyImages/${story.image}`}
+                                    src={`https://mern-blog-backend-nc2o.onrender.com/storyImages/${story.image}`}
                                     alt={story.title}
                                 />
                             </div>

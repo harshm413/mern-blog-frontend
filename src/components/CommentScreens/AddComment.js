@@ -105,7 +105,7 @@ const AddComment = ({
                         }
                     >
                         <img
-                            src={`/userPhotos/${activeUser.photo}`}
+                            src={`https://mern-blog-backend-nc2o.onrender.com/userPhotos/${activeUser.photo}`}
                             alt={activeUser.username}
                         />
                         <span className="username">{activeUser.username} </span>

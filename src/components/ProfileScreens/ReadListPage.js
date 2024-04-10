@@ -58,7 +58,7 @@ const ReadListPage = () => {
 
                     <div className="readList-top-block">
                         <img
-                            src={`/userPhotos/${activeUser.photo}`}
+                            src={`https://mern-blog-backend-nc2o.onrender.com/userPhotos/${activeUser.photo}`}
                             alt={activeUser.username}
                         />
 

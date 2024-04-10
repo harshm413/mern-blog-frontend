@@ -37,7 +37,7 @@ const LoginScreen = () => {
                 <div className="section-wrapper">
                     <div className="top-suggest_register">
                         <span>Don't have an account? </span>
-                        <a href="/register">Sign Up</a>
+                        <Link to="/register">Sign Up</Link>
                     </div>
 
                     <div className="top-login-explain">

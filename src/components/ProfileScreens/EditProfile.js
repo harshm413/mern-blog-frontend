@@ -116,7 +116,7 @@ const EditProfile = () => {
                             <div class="currentImage">
                                 <div class="absolute">Currently Image</div>
                                 <img
-                                    src={`http://localhost:5000/userPhotos/${previousPhoto}`}
+                                    src={`https://mern-blog-backend-nc2o.onrender.com/userPhotos/${previousPhoto}`}
                                     alt="userPhoto"
                                 />
                             </div>

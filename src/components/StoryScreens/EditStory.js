@@ -107,7 +107,7 @@ const EditStory = () => {
                         <div class="currentlyImage">
                             <div class="absolute">Currently Image</div>
                             <img
-                                src={`http://localhost:5000/storyImages/${previousImage}`}
+                                src={`https://mern-blog-backend-nc2o.onrender.com/storyImages/${previousImage}`}
                                 alt="storyImage"
                             />
                         </div>
